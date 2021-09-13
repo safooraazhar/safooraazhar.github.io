@@ -1,0 +1,274 @@
+*{
+    margin-left: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* ---------header------------- */
+#header{
+    padding: 10px;
+}
+.head{
+    color: #ffc107;
+    font-size: 10px;
+    margin-top: 70px;
+}
+.discription{
+    color: #5b5b5b;
+    font-size: 15px;
+}
+.OurVision{
+    margin-top: 50px;
+    color: #ffc107;
+    font-size: 60px;
+
+}
+.OurTeam{
+    color: #ffc107;
+    font-size: 60px;
+    margin-top: 120px;
+}
+
+/* -----------info------------- */
+
+#members{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image{
+    flex-basis: 50%;
+}
+.image img{
+    margin-top: 10px;
+    width: 320px;
+    clip-path: circle();
+    margin-left: 150px;
+} 
+
+
+.wrapper{
+    flex-basis: 50%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.wrapper h1{
+    color: black;
+    font-size: 40px;
+    margin-top: 500px;
+}
+.wrapper p{
+    color: #5b5b5b;
+    line-height: 20px;
+    font-size: 16px;
+    
+}
+
+.wrapper button{
+    height: 45px;
+    font-size: 14px;
+    border-radius: 25px;
+    
+}
+.wrapper .mail {
+    width: 100px;
+    background-color: #eee;
+    border: none;
+    color: #474559;
+    font-weight: bold;
+}
+.wrapper .mail:hover{
+    color: #ffc107;
+}
+.wrapper .WhatsApp{
+    width: 160px;
+    background-color: #474559;
+    border: none;
+    color: white;
+    margin-left: 30px;
+}
+.wrapper .WhatsApp:hover{
+    background-color: #ffc107;
+}
+
+span:before{
+    content: '';
+    animation: animate infinite 4s;
+}
+@keyframes animate {
+    0%{
+        content: 'Student';
+        color: #ffc107;
+    }
+    50%{
+        content: 'Web Developer';
+        color: #ffc107;
+    }
+    100%{
+        content: 'Flutter developer';
+        color: #ffc107;
+    }
+}
+
+.links a{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+.aadya{
+    flex-basis: 50%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.aadya h1{
+    color: black;
+    font-size: 40px;
+    margin-top: 1600px;
+}
+.aadya p{
+    color: #5b5b5b;
+    line-height: 20px;
+    font-size: 16px;
+    
+}
+
+
+.aadya button{
+    height: 45px;
+    font-size: 14px;
+    border-radius: 25px;
+    
+}
+.aadya .mail {
+    width: 100px;
+    background-color: #eee;
+    border: none;
+    color: #474559;
+    font-weight: bold;
+}
+.aadya .mail:hover{
+    color: #ffc107;
+}
+.aadya .WhatsApp{
+    width: 160px;
+    background-color: #474559;
+    border: none;
+    color: white;
+    margin-left: 30px;
+}
+.aadya .WhatsApp:hover{
+    background-color: #ffc107;
+}
+
+span:before{
+    content: '';
+    animation: animate infinite 4s;
+}
+@keyframes animate {
+    0%{
+        content: 'Student';
+        color: #ffc107;
+    }
+    50%{
+        content: 'Programmer';
+        color: #ffc107;
+    }
+    100%{
+        content: 'Flutter developer';
+        color: #ffc107;
+    }
+}
+
+.links a{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.ashna{
+    flex-basis: 50%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.ashna h1{
+    color: black;
+    font-size: 40px;
+    margin-top: 2600px;
+}
+.ashna p{
+    color: #5b5b5b;
+    line-height: 20px;
+    font-size: 16px;
+    
+}
+
+.ashna button{
+    height: 45px;
+    font-size: 14px;
+    border-radius: 25px;
+    
+}
+.ashna .mail {
+    width: 100px;
+    background-color: #eee;
+    border: none;
+    color: #474559;
+    font-weight: bold;
+}
+.ashna .mail:hover{
+    color: #ffc107;
+}
+.ashna .WhatsApp{
+    width: 160px;
+    background-color: #474559;
+    border: none;
+    color: white;
+    margin-left: 30px;
+}
+.ashna .WhatsApp:hover{
+    background-color: #ffc107;
+}
+
+span:before{
+    content: '';
+    animation: animate infinite 4s;
+}
+@keyframes animate {
+    0%{
+        content: 'Student';
+        color: #ffc107;
+    }
+    50%{
+        content: 'Web Developer';
+        color: #ffc107;
+    }
+    100%{
+        content: 'Flutter developer';
+        color: #ffc107;
+    }
+}
+
+.links a{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+
